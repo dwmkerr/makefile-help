@@ -1,5 +1,7 @@
 # makefile-help
 
+[![Validate Pull Request](https://github.com/dwmkerr/makefile-help/actions/workflows/pull-request.yaml/badge.svg)](https://github.com/dwmkerr/makefile-help/actions/workflows/pull-request.yaml)
+
 A simple snippet that allows you to quickly add a 'help' command to a Makefile to show command documentation.
 
 ## Quickstart
@@ -31,8 +33,8 @@ Run the `./test.sh` command to asset that the help recipes render the expected o
 ## TODO
 
 - ASCIIinema recording
-- A simple and readable portable version
-- Build pipeline
+- How it works
+- The compact version
 - Blog post
 
 ## Improvements
