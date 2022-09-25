@@ -1,0 +1,4 @@
+[1;32mbuild[0m: Build the code.
+[1;32mhelp-compact[0m: Show help for each of the Makefile recipes, using compact code.
+[1;32mhelp[0m: Show help for each of the Makefile recipes.
+[1;32mtest[0m: Lint and test the code.

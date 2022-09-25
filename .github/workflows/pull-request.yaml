@@ -1,0 +1,20 @@
+name: Validate Pull Request
+
+on: [pull_request]
+
+jobs:
+  validate-pull-request:
+
+    strategy:
+      matrix:
+        os: [ubuntu-22.04, ubuntu-20.04]
+
+    runs-on: ${{ matrix.os }}
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Test on ${{ matrix.os }}
+      steps: |
+        ./test.sh
