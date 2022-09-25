@@ -4,7 +4,7 @@
 
 A simple snippet that allows you to quickly add a 'help' command to a Makefile to show command documentation.
 
-![Demo: Recording of the 'make help' command](https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png | width=400)
+![Demo: Recording of the 'make help' command](./docs/demo.svg | width=400)
 
 ## Quickstart
 
