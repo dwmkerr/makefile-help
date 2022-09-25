@@ -4,8 +4,7 @@
 
 A simple snippet that allows you to quickly add a 'help' command to a Makefile to show command documentation.
 
-<img src="./docs/demo.svg" alt="Demo: Recording of the 'make help' command" width="400" height="260" />>
-
+![Demo: Recording of the 'make help' command](./docs/demo.svg)
 
 ## Quickstart
 
