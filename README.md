@@ -4,6 +4,8 @@
 
 A simple snippet that allows you to quickly add a 'help' command to a Makefile to show command documentation.
 
+<a href="https://asciinema.org/a/IXETJoZrjW3RfRAMkZLhp1V5z" target="_blank"><img src="https://asciinema.org/a/IXETJoZrjW3RfRAMkZLhp1V5z.svg" /></a>
+
 ## Quickstart
 
 To add a `help` recipe to your makefile, just use the snippet below:
