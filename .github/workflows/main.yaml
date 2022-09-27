@@ -1,0 +1,31 @@
+name: Build
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  validate-main:
+
+    strategy:
+      matrix:
+        os:
+          - ubuntu-20.04
+          - ubuntu-22.04
+          - macos-12
+          - windows-2022
+
+    runs-on: ${{ matrix.os }}
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Test on ${{ matrix.os }} with sh
+      run: ./test.sh
+      shell: bash
+
+    - name: Test on ${{ matrix.os }} with bash
+      run: ./test.sh
+      shell: sh
