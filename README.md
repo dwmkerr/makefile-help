@@ -1,6 +1,6 @@
 # makefile-help
 
-[![Validate Pull Request](https://github.com/dwmkerr/makefile-help/actions/workflows/pull-request.yaml/badge.svg)](https://github.com/dwmkerr/makefile-help/actions/workflows/pull-request.yaml)
+[![Build](https://github.com/dwmkerr/makefile-help/actions/workflows/main.yaml/badge.svg)](https://github.com/dwmkerr/makefile-help/actions/workflows/main.yaml)
 
 A simple snippet that allows you to quickly add a 'help' command to a Makefile to show command documentation. Based on the cool snippet at [github.com/FalcoSuessgott/golang-cli-template](https://github.com/FalcoSuessgott/golang-cli-template).
 
