@@ -17,12 +17,12 @@ for recipe in "${recipes[@]}"; do
     expected_output="./test-cases/${recipe}-expected-output.txt"
     if [ ! -f "${expected_output}" ]; then
         printf "[${red}FAIL${reset}] '${recipe}' failed, test file '${expected_output}' not found\n"
-        success=1
+        result=1
     elif [ "$(make ${recipe})" == "$(cat ${expected_output})" ]; then
         printf "[${green}PASS${reset}] '${recipe}' passed\n"
     else
         printf "[${red}FAIL${reset}] '${recipe}' failed\n"
-        success=1
+        result=1
     fi
 done
 
